@@ -51,6 +51,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-title);
+    background-color: var(--ligth-bg-color);
     cursor: pointer;
 }
 
