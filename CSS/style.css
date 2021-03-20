@@ -9,6 +9,7 @@
     --first-logo-color: #2196F3;
     --second-logo-color: #000000;
     --tel-color: #757575;
+    --hero-button-bg-color: #188CE8;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
     color: var(--main-text-color);
 }
 
+/* Скрытые элементы */
 .visually-hidden {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
@@ -36,8 +38,14 @@ body {
 }
 
 .link:hover,
-.link:focus {
+.link:focus,
+.button:hover,
+.button:focus {
     color: var(--hover-color);
+}
+
+.hero-button:hover {
+    color:var(--hero-button-bg-color)
 }
 
 .list {
@@ -66,7 +74,7 @@ body {
 }
 
 .section-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -76,7 +84,7 @@ body {
 
 .logo {
     font-family: var(--logo-font);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -88,7 +96,6 @@ body {
 }
 
 .site-nav {
-    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -97,7 +104,7 @@ body {
     color: var(--color-title);
 }
 
-c {
+.site-nav-studio {
     color: #2196F3;
 }
 
@@ -114,7 +121,7 @@ c {
 }
 
 .hero-button {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     display: flex;
@@ -126,7 +133,7 @@ c {
 }
 
 .advantage-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -150,7 +157,7 @@ c {
 }
 
 .team-member-prophecy {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -167,9 +174,8 @@ c {
 }
 
 .footer-address {
-    font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -177,9 +183,8 @@ c {
 }
 
 .site-nav-footer {
-    font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -187,7 +192,7 @@ c {
 }
 
 .examples-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
@@ -195,7 +200,7 @@ c {
 }
 
 .examples-subtitle {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
